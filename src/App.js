@@ -133,9 +133,9 @@ class App extends React.Component {
 
   insertRow = (rowIdx) => {
     const newRow = {
-      id: 0,
-      title: `row ${rowIdx + 1}`,
-      count: 0
+      id: rowIdx + 1,
+      title: `Title ${rowIdx + 1}`,
+      count: rowIdx + 20
     };
 
     const rows = [...this.state.rows];
