@@ -1,5 +1,8 @@
 ## yarn start or npm start
 
+## Demo
+https://jstraveller.github.io/react-table/
+
 ### Тестовое задание
 Необходимо разработать табличный компонент на базе react (или на чистом js) с функциональностью, указанной далее:
 
